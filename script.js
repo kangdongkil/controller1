@@ -18,9 +18,7 @@ $(document).ready(function(){
 		$('#player').fadeOut();
 	});
 	$('#s-btn').click(function(){
-		$('#player').effect('slide');
+		$('#player').slide();
 	});
-	$('#b-btn').click(function(){
-		$('#player').effect('bounce',{time:3},500);
-	});
+
 });
