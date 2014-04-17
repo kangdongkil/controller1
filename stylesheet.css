@@ -36,6 +36,10 @@ ul li {
 	margin: 10px;
 }
 
+ul .ui-selected {
+	background: #F39814; color: white;
+}
+
 .button {
 	width: 80px;
 	height: 20px;
@@ -43,4 +47,3 @@ ul li {
 	border: 1px solid black;
 	border-radius: 10px;
 }
-
