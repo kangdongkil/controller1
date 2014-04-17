@@ -1,3 +1,5 @@
 $(document).ready(function(){
-	$('div').hide();
+	$('#up-btn').click(){
+		$('#player').animate({top:'-=10px'},1000)
+	});
 });
