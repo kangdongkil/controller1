@@ -24,9 +24,9 @@ $(document).ready(function(){
 		$('#player').effect('bounce',{time:5},500);
 	});
 	$('.button').mouseenter(function() {
-       		$(this).animate({height: '+=10px'});
+       		$(this).animate({height: '+=5px'});
 	});
 	$('.button').mouseleave(function() {
-       		$(this).animate({height: '-=10px'});
+       		$(this).animate({height: '-=5px'});
    	});
 });
