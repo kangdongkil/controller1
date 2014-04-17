@@ -23,5 +23,11 @@ $(document).ready(function(){
 	$('#b-btn').click(function(){
 		$('#player').effect('bounce',{time:3},500);
 	});
-
+	$(function() {
+    	$( "input[type=submit], a, button" )
+      	.button()
+      	.click(function( event ) {
+        event.preventDefault();
+      });
+  });
 });
