@@ -8,10 +8,8 @@ html, body {
 	z-index:1;
 	position: absolute;
 
-	top: 50%;
-	left: 50%;
-	top: calc(50% - 20px);
-	left: calc(50% - 20px);
+	top: 300px
+	left: 300px
 	width: 40px;
 	height: 40px;
 
