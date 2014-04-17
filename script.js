@@ -17,8 +17,8 @@ $(document).ready(function(){
 	$('#out-btn').click(function(){
 		$('#player').fadeOut();
 	});
-	$('#s-btn').click(function(){
-		$('#player').effect('slide');
+	$('div').click(function(){
+		$(this).effect('slide');
 	});
 	$('#b-btn').click(function(){
 		$('#player').effect('bounce',{time:3},500);
