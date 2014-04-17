@@ -17,8 +17,10 @@ $(document).ready(function(){
 	$('#out-btn').click(function(){
 		$('#player').fadeOut();
 	});
-	$('li').click(function(){
-		$(this).css('outline-color','#FF0000');
-		$(this).css('outline-style','#FF0000');
+	$('#s-btn').click(function(){
+		$('#player').effect('slide');
+	});
+	$('#b-btn').click(function(){
+		$('#player').effect('bounce',(time:3),500);
 	});
 });
