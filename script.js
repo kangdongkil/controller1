@@ -38,4 +38,7 @@ $(document).ready(function(){
    	$('.button').mouseleave(function() {
        		$(this).css('background-color','white');
    	});
+   	$('#player').mouseenter(function(){
+   		$('#player').css('p')
+   	});
 });
