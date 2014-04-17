@@ -39,6 +39,6 @@ $(document).ready(function(){
        		$(this).css('background-color','white');
    	});
    	$('#player').mouseenter(function(){
-   		$('#player').css('p')
+   		$('#player').fade TO('fast',1);
    	});
 });
