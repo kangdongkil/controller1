@@ -38,7 +38,6 @@ $(document).ready(function(){
    	$('.button').mouseleave(function() {
        		$(this).css('background-color','white');
    	});
-   	$('#player').mouseenter(function(){
-   		$('#player').fade To('fast',1);
+   	$('#player').draggable();
    	});
 });
