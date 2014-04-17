@@ -21,13 +21,8 @@ $(document).ready(function(){
 		$('#player').effect('slide');
 	});
 	$('#b-btn').click(function(){
-		$('#player').effect('bounce',{time:3},500);
+		$('#player').effect('bounce',{time:5},500);
 	});
-	$(function() {
-    	$( "input[type=submit], a, button" )
-      	.button()
-      	.click(function( event ) {
-        event.preventDefault();
-      });
+	
   });
 });
