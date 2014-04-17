@@ -21,6 +21,6 @@ $(document).ready(function(){
 		$('#player').effect('slide');
 	});
 	$('#b-btn').click(function(){
-		$('#player').effect('bounce',(time:3),500);
+		$('#player').effect('bounce',{time:3},500);
 	});
 });
