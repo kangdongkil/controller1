@@ -5,7 +5,7 @@ html, body {
 }
 
 #player {
-	margin:auto;
+	z-index:1;
 	position: absolute;
 
 	top: 50%;
@@ -49,6 +49,7 @@ ul .ui-selected {
 	border-radius: 10px;
 }
 #space{
+	margin: 20px;
 	width:500px;
 	height:500px;
 	
