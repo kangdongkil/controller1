@@ -23,6 +23,9 @@ $(document).ready(function(){
 	$('#b-btn').click(function(){
 		$('#player').effect('bounce',{time:5},500);
 	});
+	$('#e-btn').click(function(){
+		$('#player').effect('explode');
+	});
 	$('.button').mouseenter(function() {
        		$(this).animate({height: '+=5px'});
 	});
