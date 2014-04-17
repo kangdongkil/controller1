@@ -38,6 +38,5 @@ $(document).ready(function(){
    	$('.button').mouseleave(function() {
        		$(this).css('background-color','white');
    	});
-   	$('#player').draggable();
-   	});
+   
 });
