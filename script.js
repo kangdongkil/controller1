@@ -20,5 +20,7 @@ $(document).ready(function(){
 	$('#s-btn').click(function(){
 		$('#player').effect('slide');
 	});
-
+	$('#b-btn').click(function(){
+		$('#player').effect('bounce',{time:3},500);
+	});
 });
