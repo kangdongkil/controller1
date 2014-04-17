@@ -24,5 +24,4 @@ $(document).ready(function(){
 		$('#player').effect('bounce',{time:5},500);
 	});
 	
-  });
 });
