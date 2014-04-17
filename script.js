@@ -23,5 +23,7 @@ $(document).ready(function(){
 	$('#b-btn').click(function(){
 		$('#player').effect('bounce',{time:5},500);
 	});
-	
+	$('div').mouseenter(function() {
+       		$(this).animate({height: '+=10px'});
+	});
 });
