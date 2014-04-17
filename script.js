@@ -23,6 +23,5 @@ $(document).ready(function(){
 	$('#b-btn').click(function(){
 		$('#player').effect('bounce',{time:3},500);
 	});
-	$('ul').selectable();
-    });
+
 });
