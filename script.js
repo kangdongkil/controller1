@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('div').selectable();
+	$('ol').selectable();
 	$('#up-btn').click(function(){
 		$('#player').animate({top:'-=100px'},1000);
 	});
