@@ -30,6 +30,6 @@ $(document).ready(function(){
        		$(this).animate({height: '-=5px'});
    	});
    	$('.button').mouseenter(function() {
-       		$(this).css(background-color:blue);
+       		$(this).css('background-color','blue');
    	});
 });
