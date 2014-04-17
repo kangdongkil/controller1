@@ -1,4 +1,7 @@
 $(document).ready(function(){
-	$('ul').selectable();
+	$('#up-btn').click(function(){
+		$('#player').animate({top:'+=10px'},1000);
+		
+	});
 
 });
