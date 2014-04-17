@@ -18,3 +18,6 @@ $(document).ready(function(){
 		$('#player').fadeOut();
 	});
 });
+$(document).ready(function(){
+	$('ol').selectable();
+});
