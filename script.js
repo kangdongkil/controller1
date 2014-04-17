@@ -19,5 +19,5 @@ $(document).ready(function(){
 	});
 });
 $(document).ready(function(){
-	$('ol').selectable();
+	$('ul').selectable();
 });
