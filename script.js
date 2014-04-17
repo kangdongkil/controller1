@@ -1,10 +1,3 @@
 $(document).ready(function){
-	$('.button').click(function(){
-		$('#up-btn').animate({top:='-=10px'},1000);
-		$('#down-btn').animate({top:='+=10px'},1000);
-		$('#left-btn').animate({left='-=10px'},1000);
-		$('#right-btn').animate({left:='+=10px'},1000);
-		$('#up-btn').animate({top:='+=10px'},500);
-		$('#up-btn').animate({top:='+=10px'},500);
-	});
+	$('div').hide();
 });
