@@ -17,7 +17,8 @@ $(document).ready(function(){
 	$('#out-btn').click(function(){
 		$('#player').fadeOut();
 	});
-	$('ul').click(function(){
-		$(this).selectable();
+	$('li').click(function(){
+		$(this).css('outline-color','#FF0000');
+		$(this).css('outline-style','#FF0000');
 	});
 });
