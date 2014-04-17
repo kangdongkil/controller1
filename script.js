@@ -1,3 +1,5 @@
 $(document).ready(function){
-	$('li').celectable();
+	$('div').click(function(){
+		$('#up-btn').animate({top:='+=10px'},500);
+	});
 });
