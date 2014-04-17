@@ -29,4 +29,7 @@ $(document).ready(function(){
 	$('.button').mouseleave(function() {
        		$(this).animate({height: '-=5px'});
    	});
+   	$('.button').mouseenter(function() {
+       		$(this).css(background-color:blue);
+   	});
 });
