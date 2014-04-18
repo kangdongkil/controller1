@@ -24,12 +24,11 @@ html, body {
 }
 
 ul {
-	vertical-align:top;
+	padding: 0;
  	text-align: center;
 	list-style-type: none;
 }
 ul li {
-	vertical-align:top;
 	margin: 10px;
 }
 
