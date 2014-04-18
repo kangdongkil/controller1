@@ -20,10 +20,10 @@ html, body {
 	margin: 20px;
 	width: 100px;
 	border: 1px solid black;
+	vertical-align:top;
 }
 
 ul {
-	padding: 0;
  	text-align: center;
 	list-style-type: none;
 }
